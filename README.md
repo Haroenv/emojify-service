@@ -21,10 +21,6 @@ or
 
 Go in System preferences > Keyboard > Shortcuts > Services > Emojify and add a shortcut you like
 
-# todo
-
-- [ ] support all emojis
-
 # License
 
 Apache 2.0
