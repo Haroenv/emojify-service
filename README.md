@@ -11,7 +11,13 @@ boring|fun
 
 # Installation
 
-Get `Emojify.workflow` and put it in `~/Library/Services`
+If you have [brew-cask](https://caskroom.github.io) installed you can use:
+
+```
+$ brew cask install emojify
+```
+
+Or get `Emojify.workflow` and put it in `~/Library/Services`
 
 # Usage
 
