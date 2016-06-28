@@ -14,7 +14,7 @@ boring|fun
 If you have [brew-cask](https://caskroom.github.io) installed you can use:
 
 ```
-$ brew cask install emojify
+$ brew cask update && brew cask install emojify
 ```
 
 Or get `Emojify.workflow` and put it in `~/Library/Services`
