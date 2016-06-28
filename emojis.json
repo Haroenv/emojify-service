@@ -1,58 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>AMApplicationBuild</key>
-	<string>419</string>
-	<key>AMApplicationVersion</key>
-	<string>2.6</string>
-	<key>AMDocumentVersion</key>
-	<string>2</string>
-	<key>actions</key>
-	<array>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<true/>
-					<key>Types</key>
-					<array>
-						<string>com.apple.applescript.object</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>1.0</string>
-				<key>AMApplication</key>
-				<array>
-					<string>Automator</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict>
-					<key>source</key>
-					<dict/>
-				</dict>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Types</key>
-					<array>
-						<string>com.apple.applescript.object</string>
-					</array>
-				</dict>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Run JavaScript.action</string>
-				<key>ActionName</key>
-				<string>Run JavaScript</string>
-				<key>ActionParameters</key>
-				<dict>
-					<key>source</key>
-					<string>function run(input, parameters) {
-  var emojis = {
+{
   "+1": "👍",
   "-1": "👎",
   "100": "💯",
@@ -833,7 +779,6 @@
   "unamused": "😒",
   "underage": "🔞",
   "unlock": "🔓",
-  "unicorn": "🦄",
   "up": "🆙",
   "us": "🇺🇸",
   "v": "✌️",
@@ -887,91 +832,4 @@
   "zap": "⚡",
   "zero": "0️⃣",
   "zzz": "💤"
-};
-  return input[0].replace(/[+-\w]+/g, function(word) {
-    return (emojis.hasOwnProperty(word))
-      ? emojis[word]
-      : word;
-  });
-}</string>
-				</dict>
-				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.RunJavaScript</string>
-				<key>CFBundleVersion</key>
-				<string>1.0</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
-				<key>CanShowWhenRun</key>
-				<true/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryUtilities</string>
-				</array>
-				<key>Class Name</key>
-				<string>RunJavaScriptAction</string>
-				<key>InputUUID</key>
-				<string>9ED89E62-A1C3-4D91-B2F4-B9C79948D6A4</string>
-				<key>Keywords</key>
-				<array>
-					<string>Run</string>
-					<string>JavaScript</string>
-				</array>
-				<key>OutputUUID</key>
-				<string>98BC4AAB-F51F-4534-B906-0929DACC9F3C</string>
-				<key>UUID</key>
-				<string>5768A5F0-6C05-46EC-9D51-61F3329C620F</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>Automator</string>
-				</array>
-				<key>arguments</key>
-				<dict>
-					<key>0</key>
-					<dict>
-						<key>default value</key>
-						<string>function run(input, parameters) {
-
-	// Your script goes here
-
-	return input;
-}</string>
-						<key>name</key>
-						<string>source</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>0</string>
-					</dict>
-				</dict>
-				<key>isViewVisible</key>
-				<true/>
-				<key>location</key>
-				<string>309.000000:590.000000</string>
-				<key>nibPath</key>
-				<string>/System/Library/Automator/Run JavaScript.action/Contents/Resources/Base.lproj/main.nib</string>
-			</dict>
-			<key>isViewVisible</key>
-			<true/>
-		</dict>
-	</array>
-	<key>connectors</key>
-	<dict/>
-	<key>workflowMetaData</key>
-	<dict>
-		<key>serviceApplicationBundleID</key>
-		<string></string>
-		<key>serviceApplicationPath</key>
-		<string></string>
-		<key>serviceInputTypeIdentifier</key>
-		<string>com.apple.Automator.text</string>
-		<key>serviceOutputTypeIdentifier</key>
-		<string>com.apple.Automator.text</string>
-		<key>serviceProcessesInput</key>
-		<integer>0</integer>
-		<key>workflowTypeIdentifier</key>
-		<string>com.apple.Automator.servicesMenu</string>
-	</dict>
-</dict>
-</plist>
+}
